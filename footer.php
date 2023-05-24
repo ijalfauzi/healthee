@@ -5,14 +5,14 @@
                         <div class="widget-1">
                             <div class="widget-content">
                                 <h3 class="headline headline--widget">Powered by</h3>
-                                <a href="https://kp3.co.id" title="PT Karya Prima Putera Perkasa"><img src="assets/images/kp3.webp" alt="PT Karya Prima Putera Perkasa"></a>
+                                <a href="https://kp3.co.id" title="PT Karya Prima Putera Perkasa"><img src="<?php echo get_theme_file_uri('assets/images/kp3.webp') ?>" alt="PT Karya Prima Putera Perkasa"></a>
                             </div>
                             <div class="widget-content">
                                 <h3 class="haedline headline--widget">Follow Us</h3>
                                 <div class="site-widget__socials">
-                                    <a title="Facebook" href="https://facebook.com/profile.php?id=100092313803048"><img src="assets/images/icons/facebook.webp" alt="Facebook"></a>
-                                    <a title="Instagram" href="https://instagram.com/healthings.kp3"><img src="assets/images/icons/instagram.webp" alt="Instagram"></a>
-                                    <a title="Linkedin" href="https://linkedin.com/showcase/healthings-id/"><img src="assets/images/icons/linkedin.webp" alt="Linkedin"></a>
+                                    <a title="Facebook" href="https://facebook.com/profile.php?id=100092313803048"><img src="<?php echo get_theme_file_uri('assets/images/icons/facebook.webp') ?>" alt="Facebook"></a>
+                                    <a title="Instagram" href="https://instagram.com/healthings.kp3"><img src="<?php echo get_theme_file_uri('assets/images/icons/instagram.webp') ?>" alt="Instagram"></a>
+                                    <a title="Linkedin" href="https://linkedin.com/showcase/healthings-id/"><img src="<?php echo get_theme_file_uri('assets/images/icons/linkedin.webp') ?>" alt="Linkedin"></a>
                                 </div>
                             </div>
                         </div>
@@ -24,7 +24,7 @@
                                 <ul>
                                     <li class="address">
                                         <a title="Temukan di Google Maps" href="https://g.page/kapetiga?share">
-                                            <img src="assets/images/icons/map.webp" alt="Alamat">
+                                            <img src="<?php echo get_theme_file_uri('assets/images/icons/map.webp') ?>" alt="Alamat">
                                             <div class="text-adress">
                                                 Jl. Kebagusan Raya No. 192, Kebagusan, Pasar Minggu, Jakarta Selatan 12520
                                             </div>
@@ -32,13 +32,13 @@
                                     </li>
                                     <li class="phone">
                                         <a title="Telepon Kami" href="tel:02178838951">
-                                            <img src="assets/images/icons/phone.webp" alt="Telepon">
+                                            <img src="<?php echo get_theme_file_uri('assets/images/icons/phone.webp') ?>" alt="Telepon">
                                             <div class="text-phone">Telp: +62-21-78838951</div>
                                         </a>
                                     </li>
                                     <li class="email">
                                         <a title="Email Kami" href="mailto:marketing@kp3.co.id">
-                                            <img src="assets/images/icons/envelope.webp" alt="Email">
+                                            <img src="<?php echo get_theme_file_uri('assets/images/icons/envelope.webp') ?>" alt="Email">
                                             <div class="text-email">Email: marketing@kp3.co.id</div>
                                         </a>
                                     </li>

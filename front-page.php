@@ -1,5 +1,3 @@
-<?php
+<?php get_header(); ?>
 
-// static page design would be here
-
-?>
+<?php get_footer(); ?>

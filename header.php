@@ -12,4 +12,17 @@
         <?php wp_head(); ?>
     </head>
     <body <?php body_class(); ?>>
+        <header class="site-header">
+            <div class="wrapper wrapper--nav">
+                <nav>
+                    <ul class="menu">
+                    <li class="logo"><a title="HealThings" href="/"><img alt="HealThings" src="assets/images/healthings.webp"></a></li>
+                    <li class="item"><a title="Products" href="/products.html">Products</a></li>
+                    <li class="item"><a title="About" href="#about">About</a></li>
+                    <li class="item"><a title="Contact Us" href="/contact-us.html">Contact Us</a></li>
+                    <li class="toggle"><a href="#">&equiv;</i></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
         

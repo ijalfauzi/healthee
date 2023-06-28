@@ -23,17 +23,16 @@
                     <div class="row__medium-6">
                         <div class="comparison">
                             <div class="bars bars--grey">
-                                <span>Oksigen Cair (Rp428.889.600)</span>
+                                <span>Oksigen Cair</span>
                             </div>
                             <div class="bars bars--green">
-                                <span><img src="<?php echo get_theme_file_uri('assets/images/healthings-logo-with-text-small-white.webp') ?>" alt="HealThings"> (Rp315.360.000)</span>
+                                <span><img src="<?php echo get_theme_file_uri('assets/images/healthings-logo-with-text-small-white.webp') ?>" alt="HealThings"></span>
                             </div>
                         </div>
                     </div>
                     <div class="row__medium-6">
-                        <p class="first-line">Raih efisiensi hingga <span>26,7%</span></p>
-                        <p class="second-line">dari total biaya fasyankes pertahun*</p>
-                        <p class="third-line">*) Studi kasus rumah sakit tipe D di Jawa Barat</p>
+                        <p class="first-line">Raih efisiensi hingga <span>40%</span></p>
+                        <p class="second-line">dari total biaya fasyankes pertahun</p>
                     </div>
                 </div>
             </div>

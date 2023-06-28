@@ -33,13 +33,13 @@
                                     <li class="phone">
                                         <a title="Telepon Kami" href="tel:02178838951">
                                             <img src="<?php echo get_theme_file_uri('assets/images/icons/phone.webp') ?>" alt="Telepon">
-                                            <div class="text-phone">Telp: +62-21-78838951</div>
+                                            <div class="text-phone">+62-21-78838951</div>
                                         </a>
                                     </li>
                                     <li class="email">
                                         <a title="Email Kami" href="mailto:marketing@kp3.co.id">
                                             <img src="<?php echo get_theme_file_uri('assets/images/icons/envelope.webp') ?>" alt="Email">
-                                            <div class="text-email">Email: marketing@kp3.co.id</div>
+                                            <div class="text-email">marketing@kp3.co.id</div>
                                         </a>
                                     </li>
                                 </ul>
@@ -57,6 +57,77 @@
                 </p>
             </div>
         </footer>
+        <script>
+        // Responsive Navigation Menu
+
+        const toggle = document.querySelector(".toggle");
+        const menu = document.querySelector(".menu");
+        const items = document.querySelectorAll(".item");
+
+        // Toggle mobile menu
+
+        function toggleMenu() {
+        if (menu.classList.contains("active")) {
+        menu.classList.remove("active");
+        toggle.querySelector("a").innerHTML = "&equiv;";
+        } else {
+        menu.classList.add("active");
+        toggle.querySelector("a").innerHTML = "x";
+        }
+        }
+
+        // Activate submenu
+
+        function toggleItem() {
+        if (this.classList.contains("submenu-active")) {
+        this.classList.remove("submenu-active");
+        } else if (menu.querySelector(".submenu-active")) {
+        menu.querySelector(".submenu-active").classList.remove("submenu-active");
+        this.classList.add("submenu-active");
+        } else {
+        this.classList.add("submenu-active");
+        }
+        }
+
+        // Close submenu anywhere
+
+        function closeSubmenu(e) {
+        if (menu.querySelector(".submenu-active")) {
+        let isClickInside = menu
+        .querySelector(".submenu-active")
+        .contains(e.target);
+
+        if (!isClickInside && menu.querySelector(".submenu-active")) {
+        menu.querySelector(".submenu-active").classList.remove("submenu-active");
+        }
+        }
+        }
+
+        // Event Listeners
+
+        toggle.addEventListener("click", toggleMenu, false);
+        for (let item of items) {
+        if (item.querySelector(".submenu")) {
+        item.addEventListener("click", toggleItem, false);
+        }
+        item.addEventListener("keypress", toggleItem, false);
+        }
+        document.addEventListener("click", closeSubmenu, false);
+
+        // Google Analytics
+
+
+
+        // Google Tag Manager
+
+
+
+    </script>
+    <style type="text/css">
+        body {
+            background: linear-gradient(45deg,#49bb99,#16387f 75%);
+        }
+    </style> 
         <?php wp_footer(); ?>
     </body>
 </html>
